@@ -7,8 +7,8 @@ class Hash
       if v == *arguments
         array << k
       end
+      binding.pry
     end
-    binding.pry
   end
   return array
 end
