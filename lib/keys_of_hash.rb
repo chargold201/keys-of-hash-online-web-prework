@@ -8,6 +8,6 @@ class Hash
         array << k
       end
     end
+    array
   end
-  array
 end
