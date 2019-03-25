@@ -1,3 +1,5 @@
+require 'pry'
+
 class Hash
   def keys_of(*arguments)
     array = []
@@ -6,6 +8,7 @@ class Hash
         array << k
       end
     end
+    binding.pry
   end
   return array
 end
