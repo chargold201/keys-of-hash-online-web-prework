@@ -1,10 +1,10 @@
 require 'pry'
 
 class Hash
-  def keys_of(arguments)
+  def keys_of(*arguments)
     array = []
     self.each do |k, v|
-      if v == *arguments
+      if v == arguments
         array << k
       end
     end
